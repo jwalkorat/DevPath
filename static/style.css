@@ -2149,3 +2149,16 @@ select:focus {
 #scroll-top-btn.visible {
     display: flex;
 }
+
+.noscript-warning {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffc107;
+  border-bottom: 2px solid #ffc107;
+  padding: 1rem 1.5rem;
+  margin-top: 64px;   /* pushes below the fixed 64px navbar */
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 100%;
+}
